@@ -32,3 +32,42 @@ No, los datos no se pierden debido a que al referenciar un repositorio traemos u
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+
+
+1- Una vez que ROCIO BESSIO creo el repositorio "TP_SO_I2_Equipo114" OVELAR FERNADO DARIO realizo el FORK e hizo:
+-git clone https://github.com/rociobessio/TP_SO_i2_Equipo114.git
+echo (respuesta) > fork.txt
+-git push origin main
+2- Luego PEREZ CARDENAL PATRICIO realizo lo mismo que OVELAR FERNANDO DARIO realizo el FORK e hizo:
+-git clone https://github.com/rociobessio/TP_SO_i2_Equipo114.git
+echo (respuesta) > fork.txt
+-git push origin main
+3- ROCIO BESSIO descargo su repositorio de forma local:
+-git clone https://github.com/rociobessio/TP_SO_i2_Equipo114.git
+-cat > NuevoDato.txt
+4- OVELAR FERNANDO DARIO y PEREZ CARDENAL PATRCIO realizaron la sincronizacion con el boton "Sync Fork"
+5- ROCIO BESSIO desde su repositorio descargado de manera local creo el archivo "respuesta_i2_Equipo114"
+-cat > respuesta_I2_Equipo114
+6- OVELAR FERNADO DARIO actualizo su fork con los siguientes comandos:
+-git remote add upstream (respositorio original) -> referenciamos el repositorio original.
+-git fetch upstream -> traemos las ramas del repositorio original.
+-git rebase upstream/(la rama) -> reescribimos nuestra rama con los commits de la rama original.
+-git push -f origin (rama) -> realizamos push para actualizar el repositorio forkeado.
+Luego agrego las respuestas de la siguiente manera:
+-echo (respuestas) > respuesta_I2_Equipo114.txt
+Realizo el PUSH
+-git push origin main
+Desde git realizo el pull request para que ROCIO BESSIO pueda hacer MERGE de la actualizacion de OVELAR FERNANDO DARIO
+7- ROCIO BESSIO actualizo su repositorio con el MERGE del PULL REQUEST y una vez actualizado de forma local hizo:
+-echo (respuestas) > respuesta_I2_Equipo114.txt
+Realizo el PUSH
+-git push origin main
+8- PEREZ CARDENAL PATRICO realizo la sincronizacion
+-git remote add upstream (respositorio original) -> referenciamos el repositorio original.
+-git fetch upstream -> traemos las ramas del repositorio original.
+-git rebase upstream/(la rama) -> reescribimos nuestra rama con los commits de la rama original.
+-git push -f origin (rama) -> realizamos push para actualizar el repositorio forkeado.
+-echo (respuestas) > respuesta_I2_Equipo114.txt
+Realizo el PUSH
+-git push origin main
+Y por ultimo PEREZ CARDENAL PATRICIO realiza el PULL REQUEST para que ROCIO BESSIO pueda actualizar el repositorio original y OVELAR FERNANDO DARIO pueda tambien actualizar el suyo terminando todos con los mismos archivos.
