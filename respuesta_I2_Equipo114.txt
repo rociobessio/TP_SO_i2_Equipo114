@@ -22,9 +22,12 @@ Si, se puede. Referenciando el repositorio de Gamma, Alfa puede actualizar el su
 
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
 
+Si, GAMMA puede actualizar su FORK al estado de ALFA.
 
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
+
+No, los datos no se pierden debido a que al referenciar un repositorio traemos una rama en especifico y reescribimos sobre nuestra rama.
 
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
