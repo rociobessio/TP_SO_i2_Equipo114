@@ -4,8 +4,20 @@ GAMA: Ovelar Fernando Dario
 
 a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
 
+La forma mas simple y grafica de actualizar mi repositorio forkeado es con el boton "Sync Fork".
+Trayendo todos los commits nuevos realizados del repositorio original. Otra manera de realizarlo
+esta vez mediante codigo es: 
+
+git remote add upstream (respositorio original) -> referenciamos el repositorio original.
+git fetch upstream -> traemos las ramas del repositorio original.
+git rebase upstream/(la rama) -> reescribimos nuestra rama con los commits de la rama original.
+git push -f origin (rama) -> realizamos push para actualizar el repositorio forkeado.
+
+
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+Si, se puede. Referenciando el repositorio de Gamma, Alfa puede actualizar el suyo.
 
 
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
